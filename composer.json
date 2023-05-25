@@ -1,0 +1,27 @@
+{
+    "name": "kaung199/htmltagcomponent",
+    "description": "HTML tag comopnent with validation using bootstrap class for Laravel Application",
+    "autoload": {
+        "psr-4": {
+            "Kaung199\\Htmltagcomponent\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kaunghtetzaw",
+            "email": "kaunghtetzaw.khz9@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kaung199\\Htmltagcomponent\\HtmlTagServiceProvider",
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
+    "require": {}
+}
