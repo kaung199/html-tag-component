@@ -15,12 +15,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kaung199\\Htmltagcomponent\\HtmlTagServiceProvider",
-                "Barryvdh\\Debugbar\\ServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
-            }
+                "Kaung199\\Htmltagcomponent\\HtmlTagServiceProvider"
+            ]
         }
     },
     "require": {}
