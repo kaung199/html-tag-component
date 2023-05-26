@@ -52,7 +52,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **label** ($${\color{red}Required}$$)
+- **label** (![#f03c15](requied))
 - **name** (nullable)
 - **form** (nullable)
 - **class** (nullable)
