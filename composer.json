@@ -1,6 +1,7 @@
 {
     "name": "kaung199/htmltagcomponent",
     "description": "HTML tag comopnent with validation using bootstrap class for Laravel Application",
+    "keywords": ["Component", "Laravel", "HTML Tag", "Bootstrap"],
     "autoload": {
         "psr-4": {
             "Kaung199\\Htmltagcomponent\\": "src/"
@@ -19,5 +20,7 @@
             ]
         }
     },
-    "require": {}
+    "require": {},
+    "type": "library",
+    "license": "MIT"
 }
