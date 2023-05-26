@@ -33,7 +33,7 @@ The form components can be used with the `forms` prefix.
 
 These attributes are special:
 
-- **method** ``` ( Required ) ```
+- **method** <p style='color:red'>Required</p>
 - **action** ``` ( Required ) ```
 - **class** (nullable)
 - **id** (nullable)
