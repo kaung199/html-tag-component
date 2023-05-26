@@ -1,6 +1,6 @@
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/tomsix/laravel-components-library?style=flat-square)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaung199/html-tag-component?label=latest&style=flat-square)
-![Download](https://img.shields.io/packagist/dm/kaung199/htmltagcomponent?style=flat-square)
+[![Total Downloads](https://img.shields.io/packagist/dt/kaung199/htmltagcomponent.svg?style=flat-square)](https://packagist.org/packages/kaung199/htmltagcomponent)
 
 # HTML Tag Components Package for Laravel
 HTML Tag Component Package with validation using bootstrap class for Laravel.
