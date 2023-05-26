@@ -33,9 +33,9 @@ The form components can be used with the `forms` prefix.
 
 These attributes are special:
 
-- **method** <span style="color:#ff0000">Required</span>
+- **method** ``` ( Required ) ```
 - **action** ``` ( Required ) ```
-- **class** $${\color{red}(Required)}$$
+- **class** (nullable)
 - **id** (nullable)
 - **formName** (nullable)
 
@@ -52,7 +52,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **label** (![#f03c15](requied))
+- **label** ``` ( Required ) ```
 - **name** (nullable)
 - **form** (nullable)
 - **class** (nullable)
@@ -72,7 +72,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **label** ($${\color{red}Required}$$)
+- **label** ``` ( Required ) ```
 - **id** (nullable)
 - **class** (nullable)
 - **name** (nullable)
@@ -94,7 +94,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **name** ($${\color{red}Required}$$)
+- **name** ``` ( Required ) ```
 - **id** (nullable)
 - **class** (nullable)
 - **value** (nullable)
@@ -117,7 +117,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **name** ($${\color{red}Required}$$)
+- **name** ``` ( Required ) ```
 - **id** (nullable)
 - **class** (nullable)
 - **value** (nullable)
@@ -140,7 +140,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **name** ($${\color{red}Required}$$)
+- **name** ``` ( Required ) ```
 - **id** (nullable)
 - **class** (nullable)
 - **value** (nullable)
@@ -160,7 +160,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **name** ($${\color{red}Required}$$)
+- **name** ``` ( Required ) ```
 - **id** (nullable)
 - **class** (nullable)
 - **value** (nullable)
@@ -180,7 +180,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **name** ($${\color{red}Required}$$)
+- **name** ``` ( Required ) ```
 - **id** (nullable)
 - **class** (nullable)
 - **value** (nullable)
@@ -205,7 +205,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **name** ($${\color{red}Required}$$)
+- **name** ``` ( Required ) ```
 - **multiple** (nullable)
 - **selected** (nullable)
 - **class** (nullable)
@@ -214,7 +214,7 @@ These attributes are special:
 -  **required** (nullable)
 - **readOnly** (nullable)
 -  **disabled** (nullable)
-- **list** ($${\color{red}Required}$$)
+- **list** ``` ( Required ) ```
 
 #### Select Option (Value => Value)
 ```blade
@@ -233,7 +233,7 @@ These attributes are special:
 
 These attributes are special:
 
-- **name** ($${\color{red}Required}$$)
+- **name** ``` ( Required ) ```
 - **multiple** (nullable)
 - **selected** (nullable)
 - **class** (nullable)
@@ -242,7 +242,7 @@ These attributes are special:
 -  **required** (nullable)
 - **readOnly** (nullable)
 -  **disabled** (nullable)
-- **list** ($${\color{red}Required}$$)
+- **list** ``` ( Required ) ```
 
 #### File
 ```blade
@@ -259,12 +259,12 @@ These attributes are special:
 ```
 ##### 
 These attributes are special:
-- ($${\color{red}JQuery-Required}$$)
-- **name** ($${\color{red}Required}$$)
-- **id** ($${\color{red}Required}$$)
+- __JQuery Required__
+- **name** ``` ( Required ) ```
+- **id** ``` ( Required ) ```
 - **label** (nullable)
 - **fileType** (nullable)
 - **class** (nullable)
-- **uploadableFileCount** ($${\color{red}Required}$$)
+- **uploadableFileCount** ``` ( Required ) ```
 -  **required** (nullable)
 - **placeholder** (nullable)
