@@ -17,8 +17,7 @@
     </div>
 </div>
 
-@section('js')
-    @parent
+ {{-- add parent  --}}
     <script type="text/javascript">
         var CustomFile = (function(inputName, idAttr, uploadableFileCount, fileType, disabled) {
 
@@ -113,7 +112,8 @@
                             disabled));
                     }
                 } else {
-                    ElementHelpers.customToastr("Only " + uploadableFileCount + " File(s) are allowed.", 'error');
+                    console.log("Only " + uploadableFileCount + " File(s) are allowed.", 'error')
+                    // ElementHelpers.customToastr("Only " + uploadableFileCount + " File(s) are allowed.", 'error');
                 }
             }
             displayFile();
@@ -123,9 +123,7 @@
         CustomFile('{{ $name }}', '{{ $id }}', '{{ $uploadableFileCount }}',
             "{{ strtolower($fileType) }}", "{{ strtolower($disabled) }}");
     </script>
-@endsection
 
-@section('css')
     <style>
         {
             color: red;
@@ -141,4 +139,4 @@
             }
         }
     </style>
-@endsection
+
