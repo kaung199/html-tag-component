@@ -1,5 +1,5 @@
 ![PHP from Packagist](https://img.shields.io/packagist/php-v/tomsix/laravel-components-library?style=flat-square)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/kaung199/html-tag-component?label=latest&style=flat-square)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/kaung199/htmltagcomponent.svg?style=flat-square)](https://packagist.org/packages/kaung199/htmltagcomponent)
 [![Total Downloads](https://img.shields.io/packagist/dt/kaung199/htmltagcomponent.svg?style=flat-square)](https://packagist.org/packages/kaung199/htmltagcomponent)
 
 # HTML Tag Components Package for Laravel
