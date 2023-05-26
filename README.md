@@ -35,7 +35,7 @@ These attributes are special:
 
 - **method** <span style="color:#ff0000">Required</span>
 - **action** ``` ( Required ) ```
-- **class** (nullable)
+- **class** $${\color{red}(Required)}$$
 - **id** (nullable)
 - **formName** (nullable)
 
