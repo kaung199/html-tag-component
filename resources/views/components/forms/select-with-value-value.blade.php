@@ -15,9 +15,17 @@
             @if ($multiple) multiple @endif
             @if ($disabled) disabled="disabled" @endif>
             <option value="">Please Select</option>
-            @foreach ($list as $key => $value)
-                <option value="{{ $value }}" {{ old($name, $selected) == $value ? 'selected' : '' }}>
-                    {{ __(ucwords($value)) }}
+            @if ($multiple)
+                @php
+                    $is_selected = in_array($key, $selected);
+                @endphp
+            @else
+                @php
+                    $is_selected = old($key, $selected) == $key;
+                @endphp
+            @endif
+                <option value="{{ $key }}" {{ $is_selected ? 'selected' : '' }}>
+                    {{ __($value) }}
                 </option>
             @endforeach
         </select>
